@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blog - The Johnny Times</title>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="grid">
+    <div>
+      <h1>The Johnny Times</h1>
+      <h3 id="date">Tenth of February, Twenty-Twenty-One</h3>
+    </div>
+    <div>
+      <h2>BLOG.</h2>
+    </div>
+    <div class="row">
+      <div class="col-2" id="menu-text">
+        <h3>Also in this issue</h3>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+        </ul>
+      </div>
+      <div class="col-10 blog-entry">
+          <div>
+            <span class="blog-title">"Class" and "ID" selectors – Best practice.</span>
+
+            <br><br><em>Classes and IDs are part of a family of selectors used in CSS and HTML. </em>At their core they have seemingly similar functions. Both are used to select an HTML element and define how said element is styled on a webpage. 
+            
+            <br><br>It is important though to understand the difference between these two popular selectors. Doing so will help to keep the code you write organised, provide shortcuts to write code quicker, and allow for stylistic consistency across the webpage you’re writing.
+            
+            <br><br><em>Firstly, what is a selector? </em>When writing HTML there might be a particular element you’d like to style in CSS. You might want to centre the Header of your website, and in this case you can use the selector “H1” in your CSS. Doing so would apply a centered style to any elements in your HTML which use the H1 tag.
+            
+            <br><br><img src="../images/selector-image.png" alt="image-of-selector" class="blog-image">
+
+            <br><br><em>The selectors “class” and “id” take this idea a step further. </em>Using these selectors in the same way as above allows you to apply styling to specific elements within your HTML, this time without having to use a specific tag like “h1”. Your HTML might have multiple “< div >” tags, in which case you could use “class” and “id” selectors to define which divs you would like to style.
+            
+            <br><br><em>The golden rule when using these selectors is that “id” applies to individual elements and “class” can apply to many. </em>Consider a webpage that has a unique element on it, like an eye catching “subscribe now” header. You could style this element with an “id” selector applying a bright background colour to just that area. It’s important to note that an individual “id” selector should and can only be used once in your code. “id” is signified with a “#” in your CSS. 
+            
+            <br><br><img src="../images/id-image.png" alt="image-of-id" class="blog-image">
+
+            <br><br>On the other hand, “class” is incredibly useful to apply to many elements of your website. You could apply the “class” selector to all of the titles of your blog entries. Doing so would mean that not only would these elements be totally consistent on the final site, but also that you only need to write the CSS styling once (as opposed to over and over for each blog entry!) Class is signified with a “.” in your CSS. 
+            
+            <br><br><img src="../images/class-image.png" alt="image-of-class" class="blog-image">
+
+            <br><br>Keep this in mind as you continue coding. Remembering that “id” is unique and “class” is many will ensure your code and your finished product is consistent and robust.
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
